@@ -1,0 +1,7 @@
+<!--pages/smart/smart.wxml-->
+<view class="smart-container">
+  <say>
+    <text class="say-content-text" slot="saytitle">您好，我是小智，我的本领是根据您的出行场景为您量身定制性价比超高的旅行保障方案。只需简单回答4个问题，您就能知道我的本领到底有多大。如有其他疑问，欢迎联系小智哦。</text>
+  </say>
+  <say my-float="right"></say>
+</view>

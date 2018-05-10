@@ -1,0 +1,12 @@
+/* pages/smart/smart.wxss */
+.smart-container{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 24rpx;
+  background: url(https://trip-res.oss-cn-hangzhou.aliyuncs.com/img/beijing.png) no-repeat;
+  background-size: cover;  
+  box-sizing: border-box;
+}

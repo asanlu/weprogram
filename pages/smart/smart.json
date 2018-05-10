@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "say": "../../components/say/say"
+  }
+}

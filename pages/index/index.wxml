@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+  <!-- <template is="fuck"></template>  -->
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -10,4 +11,9 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view wx:for="{{fordata}}" wx:key="*this">
+    {{item.a}}:{{item.b}}
+  </view>
+  <view data-alpha-beta="1" data-alphaBeta="2" bindtap="bindViewTap"> DataSet Test </view>
 </view>
+

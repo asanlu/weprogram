@@ -1,5 +1,5 @@
 //index.js
-//获取应用实例
+//获取应用实例getApp()全局函数
 const app = getApp()
 
 Page({
@@ -7,7 +7,8 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    fordata: [{a: 111,b:222},{a: 'aaa', b:'bbbb'}]
   },
   //事件处理函数
   bindViewTap: function() {
@@ -50,5 +51,8 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  bindViewTap: function(e){
+    console.log(e);
   }
 })

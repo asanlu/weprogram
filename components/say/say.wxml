@@ -1,0 +1,11 @@
+<!--components/say/say.wxml-->
+<view class="say-container {{myFloat}}">
+  <image class="say-avatar" mode="aspectFit" src="//trip-res.oss-cn-hangzhou.aliyuncs.com/img/jiqiren.png" lazy-load></image>
+  <view class="say-content">
+    <slot class="say-content-text" name="saytitle"></slot>
+    <!-- <text class="say-content-text">您好，我是小智，我的本领是根据您的出行场景为您量身定制性价比超高的旅行保障方案。只需简单回答4个问题，您就能知道我的本领到底有多大。如有其他疑问，欢迎联系小智哦。</text> -->
+    <view>
+      <button class="say-start">开始体验</button>
+    </view>
+  </view>
+</view>

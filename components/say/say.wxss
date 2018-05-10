@@ -1,0 +1,43 @@
+/* components/say/say.wxss */
+.say-container{
+  position: relative;
+  display: flex;
+  padding: 40rpx 96rpx 40rpx 0;
+  font-size: 32rpx;
+}
+.say-container.right{
+  padding-right: 24rpx;
+  padding-left: 96rpx;
+  flex-direction: row-reverse;
+}
+.say-container.right .say-avatar{
+  margin-right: 0;
+  margin-left: 14rpx;
+}
+.say-avatar{
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 14rpx;
+}
+.say-content{
+  flex: 1;
+  padding: 21rpx 30rpx;
+  text-align: justify;
+  background: #F8FDFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 44rpx;
+}
+.say-content-text{
+  font-family: 'PingFangSC-Regular';
+  /* color: #333; */
+  color: red;
+}
+.say-start{
+  width: 300rpx;
+  margin: 30rpx auto 16rpx;
+  color: #fff;
+  background: #1A81FA;
+  border: 1px solid #1A81FA;
+  box-shadow: 0 2px 4px 2px rgba(4,89,191,0.33);
+  border-radius: 44px;
+}

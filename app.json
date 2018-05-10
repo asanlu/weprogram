@@ -1,20 +1,24 @@
 {
-  "pages":[
+  "pages": [
+    "pages/smart/smart",
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "backgroundColor":"#64BFFA",
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#64BFFA",
     "navigationBarBackgroundColor": "#57BAFA",
     "navigationBarTitleText": "这是全局名字",
-    "navigationBarTextStyle":"white",
-    "enablePullDownRefresh": true
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#f00",
     "selectedColor": "#00f",
     "list": [
+      {
+        "pagePath": "pages/smart/smart",
+        "text": "智旅"
+      },
       {
         "pagePath": "pages/index/index",
         "text": "首页"
